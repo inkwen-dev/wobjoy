@@ -2,29 +2,213 @@
   "website": "https://wobjoy.com",
   "games": [
     {
-      "id": "egg-bonk", "path": "/games/egg-bonk/", "image": "/games/egg-bonk/cover.webp",
-      "en": {"name": "Egg Bonk", "summary": "Pick an egg, use lucky stickers, and challenge nine opponents.", "controls": "Choose an egg and start a challenge. Use lucky stickers to increase your round's win chance, then press BONK. Try to beat all nine opponents."},
-      "zh-CN": {"name": "碰出个蛋王", "summary": "选一颗蛋，使用幸运贴纸，挑战九位对手。", "controls": "选择一颗蛋并开始挑战。使用幸运贴纸提高本轮胜率，再点击碰蛋按钮，尝试击败九位对手。"}
+      "id": "egg-bonk",
+      "path": "/games/egg-bonk/",
+      "image": "/games/egg-bonk/cover.webp",
+      "en": {
+        "name": "Egg Bonk",
+        "summary": "Pick an egg, use lucky stickers, and challenge nine opponents.",
+        "controls": "Choose an egg and start a challenge. Use lucky stickers to increase your round's win chance, then press BONK. Try to beat all nine opponents."
+      },
+      "zh-CN": {
+        "name": "碰出个蛋王",
+        "summary": "选一颗蛋，使用幸运贴纸，挑战九位对手。",
+        "controls": "选择一颗蛋并开始挑战。使用幸运贴纸提高本轮胜率，再点击碰蛋按钮，尝试击败九位对手。"
+      }
     },
     {
-      "id": "hanoi", "path": "/games/tower-of-hanoi/", "image": "/games/hanoi/cover.webp",
-      "en": {"name": "Tower of Hanoi", "summary": "Move the rings across three pegs in six classic Tower of Hanoi levels.", "controls": "Click or tap a peg to pick up its top ring, then select another peg to place it. Move all rings to peg C. A larger ring cannot sit on a smaller ring. Try to finish with fewer moves."},
-      "zh-CN": {"name": "汉诺塔", "summary": "三柱移盘，挑战经典汉诺塔六关的最优步数。", "controls": "点击一根柱子拿起最上面的圆盘，再点击另一根柱子放下。将全部圆盘移到 C 柱，大盘不能放在小盘上。尝试用更少的步数通关。"}
+      "id": "hanoi",
+      "path": "/games/tower-of-hanoi/",
+      "image": "/games/hanoi/cover.webp",
+      "en": {
+        "name": "Tower of Hanoi",
+        "summary": "Move the rings across three pegs in six classic Tower of Hanoi levels.",
+        "controls": "Click or tap a peg to pick up its top ring, then select another peg to place it. Move all rings to peg C. A larger ring cannot sit on a smaller ring. Try to finish with fewer moves."
+      },
+      "zh-CN": {
+        "name": "汉诺塔",
+        "summary": "三柱移盘，挑战经典汉诺塔六关的最优步数。",
+        "controls": "点击一根柱子拿起最上面的圆盘，再点击另一根柱子放下。将全部圆盘移到 C 柱，大盘不能放在小盘上。尝试用更少的步数通关。"
+      }
     },
     {
-      "id": "sokoban", "path": "/games/sokoban/", "image": "/games/sokoban/cover.webp",
-      "en": {"name": "Sokoban", "summary": "Push every box onto a goal to clear the puzzle.", "controls": "Move with the arrow keys or WASD, swipe, or tap an adjacent tile. Push one box at a time onto a goal. Boxes cannot be pulled. Undo a mistake or restart if a box gets stuck."},
-      "zh-CN": {"name": "推箱子", "summary": "把箱子推到目标点，解开仓库谜题。", "controls": "使用方向键或 WASD、滑动屏幕，或点击角色旁边的格子移动。一次只能推一个箱子，不能拉箱子。将每个目标点盖上箱子即可通关；卡住时可以撤销或重来。"}
+      "id": "sokoban",
+      "path": "/games/sokoban/",
+      "image": "/games/sokoban/cover.webp",
+      "en": {
+        "name": "Sokoban",
+        "summary": "Push every box onto a goal to clear the puzzle.",
+        "controls": "Move with the arrow keys or WASD, swipe, or tap an adjacent tile. Push one box at a time onto a goal. Boxes cannot be pulled. Undo a mistake or restart if a box gets stuck."
+      },
+      "zh-CN": {
+        "name": "推箱子",
+        "summary": "把箱子推到目标点，解开仓库谜题。",
+        "controls": "使用方向键或 WASD、滑动屏幕，或点击角色旁边的格子移动。一次只能推一个箱子，不能拉箱子。将每个目标点盖上箱子即可通关；卡住时可以撤销或重来。"
+      }
     },
     {
-      "id": "shikaku", "path": "/games/shikaku/", "image": "/games/shikaku/cover.webp",
-      "en": {"name": "Shikaku", "summary": "Use the numbers to divide the board into rectangles.", "controls": "Drag across the grid or tap two opposite corners to place a rectangle. Each rectangle must contain one number matching its area. Fill the board without gaps or overlaps. Tap a rectangle to remove it. Keyboard: arrow keys and Enter."},
-      "zh-CN": {"name": "矩形分割", "summary": "按数字线索画矩形，把棋盘铺满。", "controls": "拖动棋盘或依次点击两个对角来放置矩形。每个矩形只能包含一个数字，面积必须与数字相等。铺满棋盘，不能重叠或留空；点击已有矩形可移除。键盘可使用方向键和回车。"}
+      "id": "shikaku",
+      "path": "/games/shikaku/",
+      "image": "/games/shikaku/cover.webp",
+      "en": {
+        "name": "Shikaku",
+        "summary": "Use the numbers to divide the board into rectangles.",
+        "controls": "Drag across the grid or tap two opposite corners to place a rectangle. Each rectangle must contain one number matching its area. Fill the board without gaps or overlaps. Tap a rectangle to remove it. Keyboard: arrow keys and Enter."
+      },
+      "zh-CN": {
+        "name": "矩形分割",
+        "summary": "按数字线索画矩形，把棋盘铺满。",
+        "controls": "拖动棋盘或依次点击两个对角来放置矩形。每个矩形只能包含一个数字，面积必须与数字相等。铺满棋盘，不能重叠或留空；点击已有矩形可移除。键盘可使用方向键和回车。"
+      }
     },
     {
-      "id": "trapsheep", "path": "/games/trapsheep/", "image": "/games/trapsheep/cover.webp",
-      "en": {"name": "Trap the Sheep", "summary": "Move the wolves to trap the sheep before it escapes.", "controls": "Select or drag a wolf to an empty connected node. Wolves can move sideways or farther from their starting gate, but cannot move back toward it. Trap the sheep before it reaches an open gate. You also lose if the wolves run out of moves."},
-      "zh-CN": {"name": "围住小羊", "summary": "沿连线移动狼，在小羊跑出大门前围住它。", "controls": "选择或拖动一只狼，将它移到相邻连线上的空节点。狼可以横向移动，或远离起始大门移动，不能向起始大门后退。在小羊到达开放大门前围住它；狼无路可走也会失败。"}
+      "id": "trapsheep",
+      "path": "/games/trapsheep/",
+      "image": "/games/trapsheep/cover.webp",
+      "en": {
+        "name": "Trap the Sheep",
+        "summary": "Move the wolves to trap the sheep before it escapes.",
+        "controls": "Select or drag a wolf to an empty connected node. Wolves can move sideways or farther from their starting gate, but cannot move back toward it. Trap the sheep before it reaches an open gate. You also lose if the wolves run out of moves."
+      },
+      "zh-CN": {
+        "name": "围住小羊",
+        "summary": "沿连线移动狼，在小羊跑出大门前围住它。",
+        "controls": "选择或拖动一只狼，将它移到相邻连线上的空节点。狼可以横向移动，或远离起始大门移动，不能向起始大门后退。在小羊到达开放大门前围住它；狼无路可走也会失败。"
+      }
+    },
+    {
+      "id": "fruit-machine",
+      "path": "/games/fruit-machine/",
+      "image": "/games/fruit-machine/cover.webp",
+      "en": {
+        "name": "Classic Fruit Machine",
+        "summary": "Start with 200 virtual coins and play up to 30 spins. Collect, double, or finish.",
+        "controls": "Start with 200 virtual coins and play up to 30 spins. Collect, double, or finish."
+      },
+      "zh-CN": {
+        "name": "经典水果机",
+        "summary": "200虚拟币、最多30次开奖，选择收奖、翻倍或收手。",
+        "controls": "200虚拟币、最多30次开奖，选择收奖、翻倍或收手。"
+      }
+    },
+    {
+      "id": "hunt-grid",
+      "path": "/games/crack-for-a-prize/",
+      "image": "/games/hunt-grid/cover.webp",
+      "en": {
+        "name": "Crack for a Prize",
+        "summary": "Find hidden gifts by cracking eggs across six boards. Empty eggs reveal neighboring clues.",
+        "controls": "Find hidden gifts by cracking eggs across six boards. Empty eggs reveal neighboring clues."
+      },
+      "zh-CN": {
+        "name": "砸金蛋",
+        "summary": "在六关棋盘上开蛋找礼盒，空蛋揭示相邻线索。",
+        "controls": "在六关棋盘上开蛋找礼盒，空蛋揭示相邻线索。"
+      }
+    },
+    {
+      "id": "balance-master",
+      "path": "/games/balance-master/",
+      "image": "/games/balance-master/cover.webp",
+      "en": {
+        "name": "Balance Master",
+        "summary": "Place ten weights without tipping the scale. Choose a weight and a tray; clear nine levels.",
+        "controls": "Place ten weights without tipping the scale. Choose a weight and a tray; clear nine levels."
+      },
+      "zh-CN": {
+        "name": "天平平衡大师",
+        "summary": "选择砝码与托盘，放完十个砝码而不翻倒，连续挑战九关。",
+        "controls": "选择砝码与托盘，放完十个砝码而不翻倒，连续挑战九关。"
+      }
+    },
+    {
+      "id": "n2048",
+      "path": "/games/2048/",
+      "image": "/games/n2048/cover.webp",
+      "en": {
+        "name": "2048",
+        "summary": "Swipe or use arrow keys to merge equal tiles and reach 2048.",
+        "controls": "Swipe or use arrow keys to merge equal tiles and reach 2048."
+      },
+      "zh-CN": {
+        "name": "数字合成2048",
+        "summary": "滑动或使用方向键合并相同数字，凑出2048。",
+        "controls": "滑动或使用方向键合并相同数字，凑出2048。"
+      }
+    },
+    {
+      "id": "derby-tactics",
+      "path": "/games/derby-tactics/",
+      "image": "/games/derby-tactics/cover.webp",
+      "en": {
+        "name": "Derby Tactics",
+        "summary": "Read the rival lineup and choose one horse per race. Higher numbers win; plan which races to sacrifice.",
+        "controls": "Read the rival lineup and choose one horse per race. Higher numbers win; plan which races to sacrifice."
+      },
+      "zh-CN": {
+        "name": "田忌赛马",
+        "summary": "查看对手阵容，每轮选一匹马，数字大者胜，合理安排让局与取胜。",
+        "controls": "查看对手阵容，每轮选一匹马，数字大者胜，合理安排让局与取胜。"
+      }
+    },
+    {
+      "id": "duskward",
+      "path": "/games/duskward/",
+      "image": "/games/duskward/cover.webp",
+      "en": {
+        "name": "Duskward",
+        "summary": "Explore a rotating 3D space garden. Choose Step In or Tour. Requires WebGPU; there is no score or win condition.",
+        "controls": "Explore a rotating 3D space garden. Choose Step In or Tour. Requires WebGPU; there is no score or win condition."
+      },
+      "zh-CN": {
+        "name": "Duskward 太空花园",
+        "summary": "探索旋转的三维太空花园，选择自由飞行或导览，需要WebGPU，没有分数与胜负目标。",
+        "controls": "探索旋转的三维太空花园，选择自由飞行或导览，需要WebGPU，没有分数与胜负目标。"
+      }
+    },
+    {
+      "id": "gustwing",
+      "path": "/games/gustwing/",
+      "image": "",
+      "en": {
+        "name": "Gustwing",
+        "summary": "Tap, click, or press Space to flap through gaps. Original game menus are in English; Wobjoy provides bilingual help.",
+        "controls": "Tap, click, or press Space to flap through gaps. Original game menus are in English; Wobjoy provides bilingual help."
+      },
+      "zh-CN": {
+        "name": "Gustwing 风翼",
+        "summary": "点击或按空格扇翅穿过缝隙。原版游戏菜单为英文，Wobjoy提供中英文说明。",
+        "controls": "点击或按空格扇翅穿过缝隙。原版游戏菜单为英文，Wobjoy提供中英文说明。"
+      }
+    },
+    {
+      "id": "klarbase",
+      "path": "/games/klarbase/",
+      "image": "/games/klarbase/cover.webp",
+      "en": {
+        "name": "Klarbase",
+        "summary": "Guide Pip through 56 floating-island puzzles. Push crates, ride lifts and catch the wind.",
+        "controls": "Guide Pip through 56 floating-island puzzles. Push crates, ride lifts and catch the wind."
+      },
+      "zh-CN": {
+        "name": "Klarbase 浮岛谜径",
+        "summary": "带Pip穿越56座谜题浮岛，推箱搭路、操作升降机关、乘风滑翔。",
+        "controls": "带Pip穿越56座谜题浮岛，推箱搭路、操作升降机关、乘风滑翔。"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "en",
+      "label": "English",
+      "home": "README.md",
+      "prefix": ""
+    },
+    {
+      "id": "zh-CN",
+      "label": "简体中文",
+      "home": "README.zh-CN.md",
+      "prefix": "/zh"
     }
   ]
 }
