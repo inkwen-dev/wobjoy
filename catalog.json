@@ -1,0 +1,30 @@
+{
+  "website": "https://wobjoy.com",
+  "games": [
+    {
+      "id": "egg-bonk", "path": "/games/egg-bonk/", "image": "/games/egg-bonk/cover.webp",
+      "en": {"name": "Egg Bonk", "summary": "Pick an egg, use lucky stickers, and challenge nine opponents.", "controls": "Choose an egg and start a challenge. Use lucky stickers to increase your round's win chance, then press BONK. Try to beat all nine opponents."},
+      "zh-CN": {"name": "碰出个蛋王", "summary": "选一颗蛋，使用幸运贴纸，挑战九位对手。", "controls": "选择一颗蛋并开始挑战。使用幸运贴纸提高本轮胜率，再点击碰蛋按钮，尝试击败九位对手。"}
+    },
+    {
+      "id": "hanoi", "path": "/games/tower-of-hanoi/", "image": "/games/hanoi/cover.webp",
+      "en": {"name": "Tower of Hanoi", "summary": "Move the rings across three pegs in six classic Tower of Hanoi levels.", "controls": "Click or tap a peg to pick up its top ring, then select another peg to place it. Move all rings to peg C. A larger ring cannot sit on a smaller ring. Try to finish with fewer moves."},
+      "zh-CN": {"name": "汉诺塔", "summary": "三柱移盘，挑战经典汉诺塔六关的最优步数。", "controls": "点击一根柱子拿起最上面的圆盘，再点击另一根柱子放下。将全部圆盘移到 C 柱，大盘不能放在小盘上。尝试用更少的步数通关。"}
+    },
+    {
+      "id": "sokoban", "path": "/games/sokoban/", "image": "/games/sokoban/cover.webp",
+      "en": {"name": "Sokoban", "summary": "Push every box onto a goal to clear the puzzle.", "controls": "Move with the arrow keys or WASD, swipe, or tap an adjacent tile. Push one box at a time onto a goal. Boxes cannot be pulled. Undo a mistake or restart if a box gets stuck."},
+      "zh-CN": {"name": "推箱子", "summary": "把箱子推到目标点，解开仓库谜题。", "controls": "使用方向键或 WASD、滑动屏幕，或点击角色旁边的格子移动。一次只能推一个箱子，不能拉箱子。将每个目标点盖上箱子即可通关；卡住时可以撤销或重来。"}
+    },
+    {
+      "id": "shikaku", "path": "/games/shikaku/", "image": "/games/shikaku/cover.webp",
+      "en": {"name": "Shikaku", "summary": "Use the numbers to divide the board into rectangles.", "controls": "Drag across the grid or tap two opposite corners to place a rectangle. Each rectangle must contain one number matching its area. Fill the board without gaps or overlaps. Tap a rectangle to remove it. Keyboard: arrow keys and Enter."},
+      "zh-CN": {"name": "矩形分割", "summary": "按数字线索画矩形，把棋盘铺满。", "controls": "拖动棋盘或依次点击两个对角来放置矩形。每个矩形只能包含一个数字，面积必须与数字相等。铺满棋盘，不能重叠或留空；点击已有矩形可移除。键盘可使用方向键和回车。"}
+    },
+    {
+      "id": "trapsheep", "path": "/games/trapsheep/", "image": "/games/trapsheep/cover.webp",
+      "en": {"name": "Trap the Sheep", "summary": "Move the wolves to trap the sheep before it escapes.", "controls": "Select or drag a wolf to an empty connected node. Wolves can move sideways or farther from their starting gate, but cannot move back toward it. Trap the sheep before it reaches an open gate. You also lose if the wolves run out of moves."},
+      "zh-CN": {"name": "围住小羊", "summary": "沿连线移动狼，在小羊跑出大门前围住它。", "controls": "选择或拖动一只狼，将它移到相邻连线上的空节点。狼可以横向移动，或远离起始大门移动，不能向起始大门后退。在小羊到达开放大门前围住它；狼无路可走也会失败。"}
+    }
+  ]
+}
